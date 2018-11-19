@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+}
+.page-wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 10px 100px 50px 100px;
+}
+.header{
+    padding: 20px;
+    height: 50px;
+    background: gray;
+    text-align: center;
+}
+.nav{
+    padding: 20px;
+    height: 50px;
+    background: gray;
+    margin-top: 10px;
+    text-align: center;
+}
+.section{
+    padding: 20px;
+    height: 200px;
+    width: 54%;
+    background: gray;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+.aside{
+    padding: 20px;
+    height: 200px;
+    width: 45%;
+    background: gray;
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.article{
+    padding: 20px;
+    height: 130px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: white;
+
+}
+.heading{
+   
+    height: 40px;
+    margin-top: 0px;
+    background: grey;
+}
+.p{
+    margin-top: -15px;
+    height: 40px; 
+    background: gray;
+}
+.footer{
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    float: left;
+  
+}
